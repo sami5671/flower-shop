@@ -73,7 +73,7 @@ body {
   gap: 0px;
   justify-content: space-around;
   width: 80%;
-  margin-left: 200px;
+  margin: auto;
 }
 .flower-types {
   width: 364px;
@@ -105,4 +105,90 @@ body {
   font-weight: 700;
   line-height: 35px;
   text-decoration-line: underline;
+}
+/* service section */
+.service-section {
+  margin-top: 120px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 45px 0px 45px 0px;
+  width: 78%;
+  margin: auto;
+  margin-top: 128px;
+}
+.service-image {
+  width: 90px;
+  height: 90px;
+}
+.service-description {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 35px;
+}
+/* offer section */
+.hot-offer-section {
+  margin-top: 130px;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.span {
+  color: #e55473;
+}
+.hot-offer {
+  margin-top: 150px;
+  margin-left: 300px;
+}
+.offer-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.offer-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.hot-offer-flower {
+  margin: 100px 370px 100px 200px;
+}
+.img-2 {
+  width: 100%;
+}
+.social-media-section {
+  text-align: center;
+  margin-top: 120px;
+}
+.social-media {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.media-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 40%;
+  margin-top: 24px;
+  margin-left: 460px;
+  margin-bottom: 30px;
+}
+/* photos */
+.photos-4 {
+  display: flex;
+  gap: 25px;
+  width: 70%;
+  margin: auto;
+}
+.photo {
+  height: 300px;
+  width: 290px;
 }
