@@ -163,6 +163,7 @@ body {
 .img-2 {
   width: 80%;
 }
+/* social media */
 .social-media-section {
   text-align: center;
   margin-top: 120px;
@@ -178,21 +179,22 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
-  width: 40%;
-  margin-top: 24px;
-  margin-left: 460px;
-  margin-bottom: 30px;
+  width: 45%;
+  margin: auto;
 }
 /* photos */
+.photo-1 {
+  margin-top: 70px;
+}
 .photos-4 {
   display: flex;
-  gap: 25px;
-  width: 75%;
+  gap: 15px;
+  width: 70%;
   margin: auto;
 }
 .photo {
-  height: 300px;
-  width: 300px;
+  height: 270px;
+  width: 230px;
   margin-bottom: 130px;
 }
 /* subscription section */
@@ -200,13 +202,13 @@ body {
   background-image: url(../images/Rectangle\ 9.png);
   background-repeat: no-repeat;
   text-align: center;
-  width: 76%;
+  width: 74%;
   margin: auto;
   padding: 5px 30px 90px 10px;
 }
 .details-title {
   color: #272727;
-  margin-top: 200px;
+  margin-top: 100px;
   font-size: 40px;
   font-weight: 800;
 }
@@ -218,10 +220,11 @@ body {
 }
 input {
   width: 700px;
-  height: 64px;
+  height: 60px;
   background-color: white;
   border: none;
   font-size: 24px;
+  border-radius: 8px;
 }
 .bg {
   margin-left: 30px;
