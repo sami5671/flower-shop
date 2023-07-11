@@ -15,20 +15,18 @@ body {
   background: rgba(229, 84, 115, 0.1);
 }
 .banner-title {
-  padding: 190px 80px 90px 170px;
+  padding: 10px 80px 40px 180px;
 }
 .b-title {
   color: #272727;
-  font-size: 50px;
+  font-size: 38px;
   font-weight: 600;
   margin-bottom: 32px;
 }
 .banner-description {
-  color: black;
-  font-size: 20px;
-  font-weight: 400;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 14px;
   line-height: 30px;
-  width: 85%;
 }
 .btn-primary {
   margin-top: 32px;
@@ -39,70 +37,69 @@ body {
   color: white;
 }
 .banner-image {
-  margin-top: 70px;
-  padding-right: 150px;
+  margin-top: 90px;
+  padding-right: 80px;
 }
 .img-1 {
-  width: 500px;
-  height: 700px;
+  width: 400px;
+  height: 600px;
 }
 /* body feature section */
 .featured {
   margin-top: 178px;
   text-align: center;
+  margin-bottom: 40px;
 }
 .feature-title {
   color: #272727;
   font-size: 40px;
   font-weight: 800;
-  text-align: center;
   margin-bottom: 25px;
 }
 .feature-description {
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 30px;
-  width: 39%;
-  margin-left: 490px;
-  margin-bottom: 50px;
+  width: 50%;
+  margin: auto;
 }
 /* flower types */
 .different-flower-types {
   display: flex;
-  gap: 0px;
+  gap: 15px;
   justify-content: space-around;
-  width: 80%;
+  width: 50%;
   margin: auto;
 }
 .flower-types {
-  width: 364px;
-  height: 438px;
+  width: 264px;
+  height: 338px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
 }
 .flower-1 {
-  width: 210px;
-  height: 328px;
-  padding: 110px 78px 0px 76px;
+  width: 180px;
+  height: 258px;
+  padding: 80px 78px 0px 40px;
 }
 .flower-types-1 {
-  width: 364px;
-  height: 438px;
+  width: 264px;
+  height: 338px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(5, 151, 160, 0.15);
 }
 .flower-types-2 {
-  width: 364px;
-  height: 438px;
+  width: 264px;
+  height: 338px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(71, 125, 17, 0.15);
 }
 .flower-name {
   color: #272727;
   text-align: center;
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 18px;
+  font-weight: 600;
   line-height: 35px;
   text-decoration-line: underline;
 }
@@ -115,7 +112,7 @@ body {
   justify-content: space-around;
   text-align: center;
   padding: 45px 0px 45px 0px;
-  width: 78%;
+  width: 70%;
   margin: auto;
   margin-top: 128px;
 }
@@ -142,25 +139,29 @@ body {
 }
 .hot-offer {
   margin-top: 150px;
-  margin-left: 300px;
+  margin-left: 150px;
+  text-align: center;
 }
 .offer-title {
   color: #272727;
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 800;
+  margin-bottom: 20px;
 }
 .offer-description {
   color: rgba(39, 39, 39, 0.6);
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 25px;
   margin-top: 20px;
+  width: 60%;
+  margin: auto;
 }
 .hot-offer-flower {
-  margin: 100px 370px 100px 200px;
+  padding: 90px 100px 90px 0px;
 }
 .img-2 {
-  width: 100%;
+  width: 80%;
 }
 .social-media-section {
   text-align: center;
